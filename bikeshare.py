@@ -1,4 +1,5 @@
 # This program analyses redieshare data for several cities in the United States
+# Requirements: Python 3.x and Pandas.
 
 import time
 import pandas as pd
