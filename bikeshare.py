@@ -1,3 +1,5 @@
+# This program analyses redieshare data for several cities in the United States
+
 import time
 import pandas as pd
 import numpy as np
@@ -17,7 +19,7 @@ def get_filters():
     """
 
     print('\n>>>Hello! Let\'s explore some US bikeshare data!')
-    
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
       city = input("\n>>>There is data available for Chicago, New York City and Washington (D.C). Which city are you interested in?\n")
@@ -203,7 +205,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
         #extra look at data?
         print(">>>Would you like see a raw data sample? Please enter yes or no.")
         display_data = input()
